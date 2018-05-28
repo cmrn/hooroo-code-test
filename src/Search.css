@@ -1,7 +1,13 @@
+.Search-header {
+  display: flex;
+  align-items: center;
+}
+
 .Search-title {
   font-style: italic;
   font-weight: normal;
   font-size: 20px;
+  flex-grow: 1;
 }
 
 .Search-title > strong {

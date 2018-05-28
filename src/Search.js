@@ -19,14 +19,16 @@ class Search extends React.Component {
   render() {
     return (
       <div className="Search">
-        <h2 className="Search-title">
-          <strong onClick={this.handleBlah}>5</strong> hotels in <strong>Sydney</strong>.
-        </h2>
-        <div className="Search-sort">
-          Sort by <select value={this.state.sort} onChange={this.handleSortChange}>
-            <option value={SORT_HIGH}>Price high-low</option>
-            <option value={SORT_LOW}>Price low-high</option>
-          </select>
+        <div className="Search-header">
+          <h2 className="Search-title">
+            <strong>5</strong> hotels in <strong>Sydney</strong>.
+          </h2>
+          <div className="Search-sort">
+            Sort by <select value={this.state.sort} onChange={this.handleSortChange}>
+              <option value={SORT_HIGH}>Price high-low</option>
+              <option value={SORT_LOW}>Price low-high</option>
+            </select>
+          </div>
         </div>
         <SearchResults results={this.state.hotels} />
       </div>
