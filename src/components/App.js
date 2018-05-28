@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './qantas-logo.png';
 import './App.css';
-import Search from './Search.js';
+import Search from '../containers/Search';
 
 const App = () => (
   <div className="App">
