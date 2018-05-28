@@ -1,6 +1,12 @@
 .Hotel {
   display: grid;
-  grid-template-columns: 145px auto 145px;
+  grid-template-columns: 145px auto 120px;
+  grid-template-rows: 20px auto 20px;
+  grid-template-areas: 
+    "image . ."
+    "image content price"
+    "image cancellation .";
+  grid-column-gap: 20px;
   padding: 10px 0;
   border-bottom: 1px solid #ccc;
 }
@@ -11,6 +17,7 @@
 
 .Hotel-image {
   position: relative;
+  grid-area: image;
   width: 145px;
   height: 125px;
 }
@@ -26,7 +33,7 @@
 }
 
 .Hotel-details {
-  margin: 20px;
+  grid-area: content;
 }
 
 .Hotel-title {
@@ -48,15 +55,24 @@
 .Hotel-cancellation {
   color: green;
   font-size: 12px;
+  grid-area: cancellation;
+  align-self: end;
 }
 
 .Hotel-price {
+  justify-self: end;
   text-align: right;
-  margin-top: 20px;
+  grid-area: price;
+}
+
+.Hotel-priceDescription {
+  font-size: 10px;
+  margin-bottom: 5px;
 }
 
 .Hotel-priceNumber {
   font-size: 35px;
+  margin-bottom: 5px;
   line-height: 35px;
   display: inline-block;
 }
@@ -65,4 +81,10 @@
   display: inline-block;
   font-size: 15px;
   vertical-align: top;
+}
+
+.Hotel-savings {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
 }

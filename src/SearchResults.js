@@ -12,10 +12,14 @@ const Hotel = ({ hotel }) => {
         <h3 className="Hotel-title">{hotel.title}</h3>
         <div className="Hotel-address">{hotel.address}</div>
         <div className="Hotel-room">{hotel.roomName}</div>
-        { hotel.freeCancellation ? <div className="Hotel-cancellation">Free cancellation</div> : null }
       </div>
+      { hotel.freeCancellation ? <div className="Hotel-cancellation">Free cancellation</div> : null }
       <div className="Hotel-price">
-        <span className="Hotel-currencySymbol">$</span> <span className="Hotel-priceNumber">{hotel.price}</span>
+        <div className="Hotel-priceDescription">1 night total (AUD)</div>
+        <div>
+          <span className="Hotel-currencySymbol">$</span> <span className="Hotel-priceNumber">{hotel.price}</span>
+        </div>
+        { hotel.savings > 0 ? <div className="Hotel-savings">Save ${hotel.savings}~</div> : null }
       </div>
     </div>
   )
