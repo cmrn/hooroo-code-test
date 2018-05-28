@@ -1,0 +1,105 @@
+.Hotel {
+  display: grid;
+  grid-template-columns: 145px auto 120px;
+  grid-template-rows: 20px auto 20px;
+  grid-template-areas: 
+    "image . ."
+    "image content price"
+    "image cancellation .";
+  grid-column-gap: 20px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.Hotel:first-of-type {
+  border-top: 1px solid #ccc;
+}
+
+.Hotel-image {
+  position: relative;
+  grid-area: image;
+  width: 145px;
+  height: 125px;
+}
+
+.Hotel-promotion {
+  position: absolute;
+  background-color: white;
+  color: red;
+  top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.Hotel-details {
+  grid-area: content;
+}
+
+.Hotel-title {
+  display: flex;
+  align-items: center;
+}
+
+.Hotel-title > h3 {
+  font-size: 20px;
+  margin: 0;
+  margin-right: 10px;
+  max-width: 350px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Hotel-rating {
+  display: inline-block;
+}
+
+.Hotel-address {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.Hotel-room {
+  font-size: 14px;
+  color: red;
+  text-decoration: underline;
+}
+
+.Hotel-cancellation {
+  color: green;
+  font-size: 12px;
+  grid-area: cancellation;
+  align-self: end;
+}
+
+.Hotel-price {
+  justify-self: end;
+  text-align: right;
+  grid-area: price;
+}
+
+.Hotel-priceDescription {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.Hotel-priceNumber {
+  font-size: 35px;
+  margin-bottom: 5px;
+  line-height: 35px;
+  display: inline-block;
+}
+
+.Hotel-currencySymbol {
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.Hotel-savings {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
