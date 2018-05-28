@@ -42,9 +42,10 @@
 }
 
 .Hotel-title > h3 {
+  font-size: 20px;
   margin: 0;
   margin-right: 10px;
-  max-width: 325px;
+  max-width: 350px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

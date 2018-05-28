@@ -7,7 +7,7 @@
     "rating": 4,
     "ratingType": "self",
     "promotion": "Exclusive Deal",
-    "name": "Deluxe Balcony Room",
+    "roomName": "Deluxe Balcony Room",
     "price": 329,
     "savings": 30,
     "freeCancellation": true
