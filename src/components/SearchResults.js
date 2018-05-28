@@ -1,5 +1,6 @@
 import React from 'react';
 import './SearchResults.css';
+import Rating from './Rating';
 
 const Hotel = ({ hotel }) => {
   return (
@@ -9,7 +10,10 @@ const Hotel = ({ hotel }) => {
         <img src={hotel.image} alt='' />
       </div>
       <div className="Hotel-details">
-        <h3 className="Hotel-title">{hotel.title}</h3>
+        <div className="Hotel-title">
+          <h3>{hotel.title}</h3>
+          <Rating className="Hotel-rating" rating={hotel.rating} type={hotel.ratingType} />
+        </div>
         <div className="Hotel-address">{hotel.address}</div>
         <div className="Hotel-room">{hotel.roomName}</div>
       </div>

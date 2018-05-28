@@ -1,5 +1,5 @@
 import React from 'react';
-import { searchHotels, SORT_LOW, SORT_HIGH } from '../api';
+import { searchHotels, SORT_HIGH } from '../api';
 import Search from '../components/Search';
 
 class SearchContainer extends React.Component {

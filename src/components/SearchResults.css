@@ -37,7 +37,21 @@
 }
 
 .Hotel-title {
+  display: flex;
+  align-items: center;
+}
+
+.Hotel-title > h3 {
   margin: 0;
+  margin-right: 10px;
+  max-width: 325px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.Hotel-rating {
+  display: inline-block;
 }
 
 .Hotel-address {
