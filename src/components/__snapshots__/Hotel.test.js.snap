@@ -1,0 +1,653 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`allows a className to be set 1`] = `
+<div
+  className="Hotel SomeClass"
+>
+  <div
+    className="Hotel-image"
+  >
+    <span
+      className="Hotel-promotion"
+    >
+      Exclusive Deal
+    </span>
+    <img
+      alt=""
+      src="https://unsplash.it/145/125/?random1"
+    />
+  </div>
+  <div
+    className="Hotel-details"
+  >
+    <div
+      className="Hotel-title"
+    >
+      <h3>
+        Courtyard by Marriott Sydney-North Ryde
+      </h3>
+      <div
+        aria-label="4 stars (self rated)"
+        className="Hotel-rating Rating"
+      >
+        <div
+          className={undefined}
+          style={
+            Object {
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+                  .react-stars-00487723387081509:before {
+                    position: absolute;
+                    overflow: hidden;
+                    display: block;
+                    z-index: 1;
+                    top: 0; left: 0;
+                    width: 50%;
+                    content: attr(data-forhalf);
+                    color: #ffd700;
+                }",
+              }
+            }
+          />
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={0}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={1}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={2}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={3}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={4}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ccc",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="Hotel-address"
+    >
+      7-11 Talavera Rd, North Ryde
+    </div>
+    <div
+      className="Hotel-room"
+    >
+      Deluxe Balcony Room
+    </div>
+  </div>
+  <div
+    className="Hotel-cancellation"
+  >
+    Free cancellation
+  </div>
+  <div
+    className="Hotel-price"
+  >
+    <div
+      className="Hotel-priceDescription"
+    >
+      1 night total (AUD)
+    </div>
+    <div>
+      <span
+        className="Hotel-currencySymbol"
+      >
+        $
+      </span>
+       
+      <span
+        className="Hotel-priceNumber"
+      >
+        329
+      </span>
+    </div>
+    <div
+      className="Hotel-savings"
+    >
+      Save $
+      30
+      ~
+    </div>
+  </div>
+</div>
+`;
+
+exports[`passes through other props 1`] = `
+<div
+  aria-label="another prop"
+  className="Hotel"
+>
+  <div
+    className="Hotel-image"
+  >
+    <span
+      className="Hotel-promotion"
+    >
+      Exclusive Deal
+    </span>
+    <img
+      alt=""
+      src="https://unsplash.it/145/125/?random1"
+    />
+  </div>
+  <div
+    className="Hotel-details"
+  >
+    <div
+      className="Hotel-title"
+    >
+      <h3>
+        Courtyard by Marriott Sydney-North Ryde
+      </h3>
+      <div
+        aria-label="4 stars (self rated)"
+        className="Hotel-rating Rating"
+      >
+        <div
+          className={undefined}
+          style={
+            Object {
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+                  .react-stars-00487723387081509:before {
+                    position: absolute;
+                    overflow: hidden;
+                    display: block;
+                    z-index: 1;
+                    top: 0; left: 0;
+                    width: 50%;
+                    content: attr(data-forhalf);
+                    color: #ffd700;
+                }",
+              }
+            }
+          />
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={0}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={1}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={2}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={3}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={4}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ccc",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="Hotel-address"
+    >
+      7-11 Talavera Rd, North Ryde
+    </div>
+    <div
+      className="Hotel-room"
+    >
+      Deluxe Balcony Room
+    </div>
+  </div>
+  <div
+    className="Hotel-cancellation"
+  >
+    Free cancellation
+  </div>
+  <div
+    className="Hotel-price"
+  >
+    <div
+      className="Hotel-priceDescription"
+    >
+      1 night total (AUD)
+    </div>
+    <div>
+      <span
+        className="Hotel-currencySymbol"
+      >
+        $
+      </span>
+       
+      <span
+        className="Hotel-priceNumber"
+      >
+        329
+      </span>
+    </div>
+    <div
+      className="Hotel-savings"
+    >
+      Save $
+      30
+      ~
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders a hotel 1`] = `
+<div
+  className="Hotel"
+>
+  <div
+    className="Hotel-image"
+  >
+    <span
+      className="Hotel-promotion"
+    >
+      Exclusive Deal
+    </span>
+    <img
+      alt=""
+      src="https://unsplash.it/145/125/?random1"
+    />
+  </div>
+  <div
+    className="Hotel-details"
+  >
+    <div
+      className="Hotel-title"
+    >
+      <h3>
+        Courtyard by Marriott Sydney-North Ryde
+      </h3>
+      <div
+        aria-label="4 stars (self rated)"
+        className="Hotel-rating Rating"
+      >
+        <div
+          className={undefined}
+          style={
+            Object {
+              "overflow": "hidden",
+              "position": "relative",
+            }
+          }
+        >
+          <style
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "
+                  .react-stars-00487723387081509:before {
+                    position: absolute;
+                    overflow: hidden;
+                    display: block;
+                    z-index: 1;
+                    top: 0; left: 0;
+                    width: 50%;
+                    content: attr(data-forhalf);
+                    color: #ffd700;
+                }",
+              }
+            }
+          />
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={0}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={1}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={2}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={3}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ffd700",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+          <span
+            className=""
+            data-forhalf="●"
+            data-index={4}
+            onClick={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "color": "#ccc",
+                "cursor": "default",
+                "display": "block",
+                "float": "left",
+                "fontSize": "30px",
+                "overflow": "hidden",
+                "position": "relative",
+              }
+            }
+          >
+            ●
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      className="Hotel-address"
+    >
+      7-11 Talavera Rd, North Ryde
+    </div>
+    <div
+      className="Hotel-room"
+    >
+      Deluxe Balcony Room
+    </div>
+  </div>
+  <div
+    className="Hotel-cancellation"
+  >
+    Free cancellation
+  </div>
+  <div
+    className="Hotel-price"
+  >
+    <div
+      className="Hotel-priceDescription"
+    >
+      1 night total (AUD)
+    </div>
+    <div>
+      <span
+        className="Hotel-currencySymbol"
+      >
+        $
+      </span>
+       
+      <span
+        className="Hotel-priceNumber"
+      >
+        329
+      </span>
+    </div>
+    <div
+      className="Hotel-savings"
+    >
+      Save $
+      30
+      ~
+    </div>
+  </div>
+</div>
+`;

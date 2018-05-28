@@ -1,10 +1,12 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import cnames from 'classnames';
 import './Hotel.css';
 import Rating from './Rating';
 
-const Hotel = ({ hotel }) => {
+const Hotel = ({ hotel, className, ...props }) => {
   return (
-    <div className="Hotel">
+    <div className={cnames("Hotel", className)} {...props}>
       <div className="Hotel-image">
         <span className="Hotel-promotion">{hotel.promotion}</span>
         <img src={hotel.image} alt='' />
@@ -27,6 +29,11 @@ const Hotel = ({ hotel }) => {
       </div>
     </div>
   )
+};
+
+Hotel.propTypes = {
+  hotel: PropTypes.object.isRequired, // TODO: Make a shape for hotel
+  className: PropTypes.string,
 };
 
 export default Hotel;

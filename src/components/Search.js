@@ -1,11 +1,13 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import cnames from 'classnames';
 import './Search.css';
 import { SORT_LOW, SORT_HIGH } from '../api';
 import SearchResults from './SearchResults';
 
-const Search = ({ sort, hotels, onChange }) => {  
+const Search = ({ sort, hotels, onChange, className, ...props }) => { 
   return (
-    <div className="Search">
+    <div className={cnames(className, "Search")} {...props}>
       <div className="Search-header">
         <h2 className="Search-title">
           <strong>{hotels.length}</strong> hotels in <strong>Sydney</strong>.
@@ -17,9 +19,16 @@ const Search = ({ sort, hotels, onChange }) => {
           </select>
         </div>
       </div>
-      <SearchResults results={hotels} />
+      <SearchResults hotels={hotels} />
     </div>
   );
+}
+
+Search.propTypes = {
+  sort: PropTypes.oneOf([SORT_LOW, SORT_HIGH]).isRequired,
+  hotels: PropTypes.array.isRequired,
+  onChange: PropTypes.func.isRequired,
+  className: PropTypes.string,
 }
 
 export default Search;

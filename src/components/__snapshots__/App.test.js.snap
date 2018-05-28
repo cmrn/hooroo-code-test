@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the search page and header 1`] = `
+<div
+  className="App"
+>
+  <header>
+    <img
+      alt="Qantas"
+      className="App-logo"
+      src="qantas-logo.png"
+    />
+  </header>
+  <SearchContainer />
+</div>
+`;

@@ -1,0 +1,726 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`allows a className to be set 1`] = `
+<div
+  aria-label="5 stars"
+  className="SomeClass Rating"
+>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+      }
+    }
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+            .react-stars-00487723387081509:before {
+              position: absolute;
+              overflow: hidden;
+              display: block;
+              z-index: 1;
+              top: 0; left: 0;
+              width: 50%;
+              content: attr(data-forhalf);
+              color: #ffd700;
+          }",
+        }
+      }
+    />
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={0}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={1}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={2}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={3}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={4}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+  </div>
+</div>
+`;
+
+exports[`passes through other props 1`] = `
+<div
+  aria-label="another prop"
+  className="Rating"
+>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+      }
+    }
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+            .react-stars-00487723387081509:before {
+              position: absolute;
+              overflow: hidden;
+              display: block;
+              z-index: 1;
+              top: 0; left: 0;
+              width: 50%;
+              content: attr(data-forhalf);
+              color: #ffd700;
+          }",
+        }
+      }
+    />
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={0}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={1}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={2}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={3}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={4}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders 4.5 circles 1`] = `
+<div
+  aria-label="4.5 stars (self rated)"
+  className="Rating"
+>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+      }
+    }
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+            .react-stars-00487723387081509:before {
+              position: absolute;
+              overflow: hidden;
+              display: block;
+              z-index: 1;
+              top: 0; left: 0;
+              width: 50%;
+              content: attr(data-forhalf);
+              color: #ffd700;
+          }",
+        }
+      }
+    />
+    <span
+      className=""
+      data-forhalf="●"
+      data-index={0}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "30px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ●
+    </span>
+    <span
+      className=""
+      data-forhalf="●"
+      data-index={1}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "30px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ●
+    </span>
+    <span
+      className=""
+      data-forhalf="●"
+      data-index={2}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "30px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ●
+    </span>
+    <span
+      className=""
+      data-forhalf="●"
+      data-index={3}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "30px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ●
+    </span>
+    <span
+      className="react-stars-00487723387081509"
+      data-forhalf="●"
+      data-index={4}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ccc",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "30px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ●
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders 5 stars 1`] = `
+<div
+  aria-label="5 stars"
+  className="Rating"
+>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+      }
+    }
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+            .react-stars-00487723387081509:before {
+              position: absolute;
+              overflow: hidden;
+              display: block;
+              z-index: 1;
+              top: 0; left: 0;
+              width: 50%;
+              content: attr(data-forhalf);
+              color: #ffd700;
+          }",
+        }
+      }
+    />
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={0}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={1}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={2}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={3}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={4}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+  </div>
+</div>
+`;
+
+exports[`renders half stars 1`] = `
+<div
+  aria-label="3.5 stars"
+  className="Rating"
+>
+  <div
+    className={undefined}
+    style={
+      Object {
+        "overflow": "hidden",
+        "position": "relative",
+      }
+    }
+  >
+    <style
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "
+            .react-stars-00487723387081509:before {
+              position: absolute;
+              overflow: hidden;
+              display: block;
+              z-index: 1;
+              top: 0; left: 0;
+              width: 50%;
+              content: attr(data-forhalf);
+              color: #ffd700;
+          }",
+        }
+      }
+    />
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={0}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={1}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={2}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ffd700",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className="react-stars-00487723387081509"
+      data-forhalf="★"
+      data-index={3}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ccc",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+    <span
+      className=""
+      data-forhalf="★"
+      data-index={4}
+      onClick={[Function]}
+      onMouseLeave={[Function]}
+      onMouseMove={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "color": "#ccc",
+          "cursor": "default",
+          "display": "block",
+          "float": "left",
+          "fontSize": "25px",
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      ★
+    </span>
+  </div>
+</div>
+`;
