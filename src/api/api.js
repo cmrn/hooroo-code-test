@@ -6,13 +6,16 @@ const SORT_LOW = 'sort_low';
 
 function searchHotels(sortOrder) {
   const lowSortFunc = (a, b) => a.price > b.price;
-  if(sortOrder === SORT_LOW) {
-    return data.sort(lowSortFunc);
-  } else if(sortOrder === SORT_HIGH) {
-    return data.sort(lowSortFunc).reverse();
-  } else {
-    return data;
-  }
+  // return a promise to mimic an external API call
+  return new Promise(resolve => {
+    if(sortOrder === SORT_LOW) {
+      resolve(data.sort(lowSortFunc));
+    } else if(sortOrder === SORT_HIGH) {
+      resolve(data.sort(lowSortFunc).reverse());
+    } else {
+      resolve(data);
+    }
+  });
 }
 
 export { searchHotels, SORT_HIGH, SORT_LOW };

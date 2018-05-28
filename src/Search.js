@@ -6,14 +6,24 @@ import SearchResults from './SearchResults';
 class Search extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { sort: SORT_HIGH, hotels: searchHotels(SORT_HIGH)};
+    this.state = { sort: SORT_HIGH, hotels: [] };
 
     this.handleSortChange = this.handleSortChange.bind(this);
   }
 
+  componentDidMount() {
+    this.loadHotels(this.state.sort);
+  }
+
   handleSortChange(event) {
     const newSort = event.target.value;
-    this.setState({ sort: newSort, hotels: searchHotels(newSort) });
+    this.setState({ sort: newSort });
+    this.loadHotels(newSort);
+  }
+
+  async loadHotels(sort) {
+    const hotels = await searchHotels(sort);
+    this.setState({ hotels });
   }
 
   render() {
