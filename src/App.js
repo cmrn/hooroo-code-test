@@ -1,17 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import logo from './qantas-logo.png';
-import styles from './App.css';
+import './App.css';
+import Search from './Search.js';
 
-class App extends React.Component {
-  render() {
-    return (
-      <div className="App">
-        <header>
-          <img src={logo} className="App-logo" alt="Qantas" />
-        </header>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div className="App">
+    <header>
+      <img src={logo} className="App-logo" alt="Qantas" />
+    </header>
+    <Search />
+  </div>
+);
 
 export default App;

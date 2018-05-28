@@ -1,0 +1,14 @@
+.Search-title {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.Search-title > strong {
+  font-style: initial;
+  font-weight: bold;
+}
+
+.Search-sort {
+  font-weight: bold;
+}
