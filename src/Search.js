@@ -1,22 +1,22 @@
 import React from 'react';
 import './Search.css';
 import { searchHotels, SORT_LOW, SORT_HIGH } from './api';
+import SearchResults from './SearchResults';
 
 class Search extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { sort: SORT_HIGH };
+    this.state = { sort: SORT_HIGH, hotels: searchHotels(SORT_HIGH)};
 
     this.handleSortChange = this.handleSortChange.bind(this);
   }
 
   handleSortChange(event) {
-    this.setState({ sort: event.target.value });
+    const newSort = event.target.value;
+    this.setState({ sort: newSort, hotels: searchHotels(newSort) });
   }
 
   render() {
-    const hotelResults = searchHotels(this.state.sort);
-
     return (
       <div className="Search">
         <h2 className="Search-title">
@@ -28,22 +28,10 @@ class Search extends React.Component {
             <option value={SORT_LOW}>Price low-high</option>
           </select>
         </div>
-        <SearchResults results={hotelResults} />
+        <SearchResults results={this.state.hotels} />
       </div>
     );
   }
 }
-
-const SearchResults = ({ results }) => {
-  if(!Array.isArray(results)) return null;
-
-  return (
-    <div>
-      {results.map(result => 
-        <div key={result.id}>{result.title}</div>
-      )}
-    </div>
-  );
-};
 
 export default Search;

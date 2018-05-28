@@ -1,0 +1,68 @@
+.Hotel {
+  display: grid;
+  grid-template-columns: 145px auto 145px;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.Hotel:first-of-type {
+  border-top: 1px solid #ccc;
+}
+
+.Hotel-image {
+  position: relative;
+  width: 145px;
+  height: 125px;
+}
+
+.Hotel-promotion {
+  position: absolute;
+  background-color: white;
+  color: red;
+  top: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 7px;
+}
+
+.Hotel-details {
+  margin: 20px;
+}
+
+.Hotel-title {
+  margin: 0;
+}
+
+.Hotel-address {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.Hotel-room {
+  font-size: 14px;
+  color: red;
+  text-decoration: underline;
+}
+
+.Hotel-cancellation {
+  color: green;
+  font-size: 12px;
+}
+
+.Hotel-price {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.Hotel-priceNumber {
+  font-size: 35px;
+  line-height: 35px;
+  display: inline-block;
+}
+
+.Hotel-currencySymbol {
+  display: inline-block;
+  font-size: 15px;
+  vertical-align: top;
+}
