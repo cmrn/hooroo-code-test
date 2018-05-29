@@ -23,3 +23,4 @@ All the usual `create-react-app` scripts work here:
 - Test a11y
 - Test on older browsers (CSS grid ain't gonna work)
 - Schema validation for hotels array
+- Move to locally scopped CSS (e.g. CSS Modules)
