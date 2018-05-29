@@ -9,6 +9,13 @@ jest.mock('./data', () => [
   { "id": "highest", "price": 456 },
 ]);
 
+it('returns default order when no sort is given', async () => {
+  const results = await searchHotels();
+  expect(results[0].id).toEqual('middlest');
+  expect(results[1].id).toEqual('lowest');
+  expect(results[2].id).toEqual('highest');
+});
+
 it('sorts by low to high', async () => {
   const results = await searchHotels(SORT_LOW);
   expect(results[0].id).toEqual('lowest');
