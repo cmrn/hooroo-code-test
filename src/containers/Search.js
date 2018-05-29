@@ -11,7 +11,7 @@ class SearchContainer extends React.Component {
   }
 
   componentDidMount() {
-    this.loadHotels(this.state.sort);
+    return this.loadHotels(this.state.sort);
   }
 
   handleChange(newSort) {

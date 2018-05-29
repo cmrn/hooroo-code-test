@@ -62,3 +62,12 @@ it('renders results when hotels is not empty', () => {
   ).toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+it('calls onChange when sort order is changed', () => {
+  const changeHandler = jest.fn();
+  const render = renderer.create(
+    <Search sort={SORT_LOW} hotels={[]} onChange={changeHandler} />
+  );
+  render.root.findByType('select').props.onChange({target: { value : 'foo' }});
+  expect(changeHandler).toBeCalledWith('foo');
+});
